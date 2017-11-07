@@ -47527,4 +47527,4 @@ class Registry extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle-1a98b40dde294b4977fc.js.map
+//# sourceMappingURL=bundle.js.map
