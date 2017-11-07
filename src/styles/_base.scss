@@ -1,0 +1,52 @@
+@import "defaults";
+
+/**
+* Mixins:
+**/
+@import "mixins/breakpoints";
+@import "mixins/grid";
+
+/**
+* Variables:
+**/
+@import "variables/colors";
+@import "variables/fonts";
+@import "mixins/card";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><circle fill="#e0c288" class="cls-1" cx="25" cy="25" r="25"/></svg>');
+  background-size: 2rem;
+}
+
+body > main {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid $silver;
+}
+
+h1 {
+  @include h1();
+}
+
+h2 {
+  @include h2();
+}
+
+h3 {
+  @include h3();
+}
+
+h4 {
+  @include h4();
+}

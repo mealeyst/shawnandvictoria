@@ -1,0 +1,69 @@
+@import "base";
+
+.OurStory {
+  @include card();
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.header {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  input:checked ~ .hisStoryInput {
+    color: $gold;
+  }
+  input:not(:checked) ~ .herStoryInput {
+    color: $coral;
+  }
+}
+
+.toggleInput {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+.hisStoryInput, .herStoryInput {
+  margin: 0 1.5rem;
+  cursor: pointer;
+  user-select:none;
+  transition: color 0.25s ease-in-out;
+}
+
+.storyWrapper {
+  overflow: hidden;
+  @include row();
+  height: 35rem;
+  position: relative;
+}
+
+.text {
+  @include col(4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 35rem;
+  overflow-y: scroll;
+  transition: transform 1s ease-in-out;
+  @include breakpoint(tablet) {
+    @include col(10, 1);
+  }
+  &:first-of-type {
+    transform: translateX(-300%);
+  }
+  &:last-of-type {
+    transform: translateX(300%);
+  }
+}
+
+.visible {
+  &:first-of-type {
+    transform: translateX(0);
+  }
+  &:last-of-type {
+    transform: translateX(0);
+  }
+}

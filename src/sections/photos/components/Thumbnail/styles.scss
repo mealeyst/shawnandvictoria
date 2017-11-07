@@ -1,0 +1,27 @@
+@import "base";
+
+.thumnailWrapper {
+  @include col(2);
+  justify-content: center;
+  margin: 1rem 0;
+  @include breakpoint(tablet) {
+    @include col(3);
+  }
+  position: relative;
+  height: 18rem;
+}
+
+.Thumbnail {
+  border-radius: 0.2rem;
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.25s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    transform: translate(-50%, -50%) scale(1.1, 1.1);
+  }
+}

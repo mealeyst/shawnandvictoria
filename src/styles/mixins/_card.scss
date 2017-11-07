@@ -1,0 +1,10 @@
+@mixin card() {
+  display: flex;
+  background-color: $white;
+  border-radius: .2rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  @include breakpoint(tablet) {
+    @include col(10, 1);
+    padding: 7rem 0;
+  }
+}

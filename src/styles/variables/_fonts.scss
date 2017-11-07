@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Raleway:400,400i,700');
+
+$header-font: 'Great Vibes', serrif;
+$primary-font: 'Raleway', sans-serif;
+
+body {
+  font-family: $primary-font;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+  transition: color 0.25s ease-in-out;
+  &:hover {
+    color: darken($blue, 10%);
+  }
+}
+
+@mixin baseHeader {
+  font-family: $header-font;
+  font-weight: normal;
+}
+
+@mixin normalText {
+  font-size: 1.6rem;
+}
+
+@mixin h1 {
+  font-size: 3.2rem;
+  margin: 0;
+  @include baseHeader;
+}
+
+@mixin h2{
+  font-size: 2.4rem;
+  @include baseHeader;
+}
+
+@mixin h3 {
+  font-size: 1.9rem;
+  @include baseHeader;
+}
+
+@mixin h4 {
+  font-size: 1.6rem;
+  @include baseHeader;
+}
+
+@mixin h5 {
+  font-size: 1.3rem;
+  @include baseHeader;
+}
+
+@mixin h6 {
+  font-size: 1.1rem;
+  @include baseHeader;
+}

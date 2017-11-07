@@ -1,0 +1,101 @@
+@import "base";
+
+.portalWrapper {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+  animation-name: fade-to-black;
+  animation-duration: .5s;
+}
+
+.Lightbox {
+  display: flex;
+  flex-direction: column;
+  footer, header {
+    display: flex;
+    flex: 1 1 auto;
+    height: 10%;
+  }
+  header {
+    justify-content: flex-end;
+  }
+  footer {
+    justify-content: center;
+  }
+}
+
+.close {
+  font-size: 3rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+
+  span {
+    font-size: 0;
+    opacity: 0;
+  }
+
+  svg {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.closeLine {
+  stroke: $white;
+  stroke-linecap: round;
+  stroke-width: 10;
+  fill: none;
+}
+
+.LightboxContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2 2 auto;
+  height: 80%;
+  > * {
+    height: 100%;
+    width: auto;
+    border-radius: 2px;
+  }
+}
+
+.navigation {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.changePhoto {
+  span {
+    font-size: 0;
+    opacity: 0;
+  }
+  svg {
+    width: 3rem;
+    height: 3rem;
+    circle {
+      fill: $blue;
+    }
+    polyline {
+      fill: none;
+      stroke: $white;
+      stroke-width: 7;
+      stroke-linecap: round;
+    }
+  }
+}
+
+@keyframes fade-to-black {
+  0% {
+    background-color: rgba(0, 0, 0, 0.0);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, .8);
+  }
+}

@@ -1,0 +1,91 @@
+@import "base";
+
+.menuInput {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+.icon {
+  width: 8rem;
+  height: 8rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  cursor: pointer;
+}
+
+.line {
+  fill:none;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+  stroke-width:4;
+  stroke: $blue;
+}
+
+.menuInput:not(:checked) {
+  & + .icon .line {
+    stroke-dashoffset: 0;
+  }
+  & + .animated .outer {
+    animation: animate-from-x 1s ease-in-out;
+  }
+  & + .animated .inner {
+    animation: add-center-line 1s ease-in-out;
+  }
+}
+
+.menuInput:checked {
+  & + .animated .outer {
+    animation: animate-to-x 1s ease-in-out;
+    stroke-dashoffset: -322;
+  }
+  & + .animated .inner {
+    animation: remove-center-line 1s ease-in-out;
+    stroke-dashoffset: 125;
+  }
+}
+
+.inner {
+  stroke-dasharray:125;
+}
+.outer {
+  stroke-dasharray:100 322;
+}
+
+@keyframes animate-to-x {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -322;
+  }
+}
+
+@keyframes animate-from-x {
+  0% {
+    stroke-dashoffset: -322;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes remove-center-line {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 125;
+  }
+}
+
+@keyframes add-center-line {
+  0% {
+    stroke-dashoffset: 125;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

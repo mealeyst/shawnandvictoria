@@ -1,0 +1,63 @@
+@import "base";
+
+.default {
+  opacity: 1;
+  animation: fade-in 0.25s ease-in-out;
+}
+
+.loaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  max-width: 3rem;
+  max-height: 3rem;
+}
+
+.loaderBackground {
+  fill: $blue;
+}
+
+.loaderSpinner {
+  stroke: $white;
+  stroke-width: 7;
+  stroke-linecap: round;
+  fill: none;
+
+  animation: spin 2s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  0% {
+    stroke-dashoffset: 235;
+    stroke-dasharray: 235;
+
+  }
+  50% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 235;
+  }
+
+  100% {
+    stroke-dashoffset: -235;
+    stroke-dasharray: 235;
+  }
+
+}

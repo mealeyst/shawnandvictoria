@@ -1,0 +1,19 @@
+@import "base";
+
+.Photos {
+  @include card();
+  flex-wrap: wrap;
+}
+
+.thumbnailWrapper {
+  @include row();
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  @include col(4);
+  @include breakpoint(tablet) {
+    @include col(12);
+  }
+}

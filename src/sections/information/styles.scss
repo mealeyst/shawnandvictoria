@@ -1,0 +1,56 @@
+@import "base";
+
+.informationCard {
+  @include card();
+  flex-wrap: wrap;
+}
+
+.title {
+  @include col(4);
+  margin-bottom: 2rem;
+  @include breakpoint(tablet) {
+    @include col(12);
+  }
+}
+
+.mapWrapper {
+  @include col(4);
+  order: 2;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  margin-top: 30px;
+  @include breakpoint(tablet) {
+    @include col(5);
+    order: 1;
+    margin-top: 0;
+  }
+}
+
+.map {
+  border-radius: .5rem;
+  width: 20rem;
+  height: 20rem;
+  @include breakpoint(tablet) {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+.details {
+  order: 1;
+  @include col(4);
+  border-left: .1rem solid $gold;
+  @include breakpoint(tablet) {
+    @include col(7);
+    order: 2;
+  }
+}
+
+.questions {
+  order: 3;
+  @include col(4)
+  @include breakpoint(tablet) {
+    @include col(12);
+  }
+}

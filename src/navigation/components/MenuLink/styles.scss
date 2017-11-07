@@ -1,0 +1,45 @@
+@import "base";
+
+.MenuLink {
+  display: flex;
+
+  height: 4rem;
+
+  transition: background-color 0.25s ease-in-out;
+
+  opacity: 0;
+  border-color: $blue;
+  border-bottom: 0.1rem solid;
+  background-color: rgba(255, 255, 255, 0.0);
+
+  @include h3;
+  justify-content: center;
+  align-items: center;
+
+  &:first-of-type {
+    border-top: 0.1rem solid;
+  }
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0%)!important;
+  transition: opacity 0.5s ease-in-out, transform 0.2s ease-in-out;
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

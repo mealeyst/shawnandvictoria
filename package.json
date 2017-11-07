@@ -1,0 +1,40 @@
+{
+  "name": "shawnandvictoria",
+  "version": "1.0.0",
+  "description": "The wedding site for Shawn Mealey and Victoria Lew",
+  "main": "index.js",
+  "repository": "https://github.com/mealeyst/shawnandvictoria",
+  "author": "Shawn Mealey",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "classnames": "^2.2.5",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.29.0",
+    "markdown-loader": "^2.0.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js --progress --colors --display-error-details",
+    "start": "webpack-dev-server --inline --config ./webpack.config.js --progress --colors --hot"
+  },
+  "dependencies": {
+    "cloudinary-core": "^2.3.0",
+    "google-maps": "^3.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-markdown": "^2.5.0",
+    "react-transition-group": "1.x"
+  }
+}

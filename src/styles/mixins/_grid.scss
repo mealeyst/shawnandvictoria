@@ -1,0 +1,22 @@
+@mixin row() {
+  max-width: 1440px;
+  padding: 0 3%;
+  @include breakpoint(tablet) {
+    padding: 0 7%;
+  }
+}
+
+@mixin col($size, $span: 0) {
+  box-sizing: border-box;
+  max-width: percentage($size / 4);
+  margin-left: percentage($span / 4);
+  padding: 0 10px;
+
+  flex-basis: percentage($size / 4);
+  @include breakpoint(tablet) {
+    max-width: percentage($size / 12);
+    margin-left: percentage($span / 12);
+
+    flex-basis: percentage($size / 12);
+  }
+}
