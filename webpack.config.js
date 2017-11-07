@@ -14,13 +14,13 @@ module.exports = {
   devtool: 'cheap-module-source-map',
   output: {
     path: __dirname + '/dist',
-    filename: "bundle-[hash].js"
+    filename: "bundle.js"
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
     }),
-    // new CleanWebpackPlugin(['/dist'], cleanOptions),
+    new CleanWebpackPlugin('./dist/**/*'),
     new webpack.DefinePlugin({
         'process.env.NODE_ENV': JSON.stringify('development')
     })
