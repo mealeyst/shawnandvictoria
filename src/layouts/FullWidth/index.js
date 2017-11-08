@@ -51,7 +51,7 @@ class Footer extends React.Component {
   render () {
     const { children } = this.props
     return (
-      <footer>
+      <footer className={styles.Footer}>
         {children}
       </footer>
     )

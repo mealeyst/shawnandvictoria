@@ -23,7 +23,7 @@ export default class App extends React.Component {
           })}
         </Body>
         <Footer>
-          <h1>Footer is here</h1>
+          <span>Made with love by: Shawn Mealey</span>
         </Footer>
       </FullWidth>
     )

@@ -11,4 +11,15 @@
 
 .Footer {
   display: flex;
+  flex-direction: column;
+  background-color: $shark;
+  color: $white;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  span {
+    display: inline-block;
+    text-align: center;
+  }
 }
