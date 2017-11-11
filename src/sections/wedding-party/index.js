@@ -21,6 +21,18 @@ export default class WeddingParty extends React.Component {
           </div>
           <div className={styles.person}>
             <div>
+              <Image className={styles.personImage} src={window.cl.url('Kristie', aspectRatio)}/>
+              <h4 className={styles.name}>Kristie</h4>
+            </div>
+          </div>
+          <div className={styles.person}>
+            <div>
+              <Image className={styles.personImage} src={window.cl.url('Danielle', aspectRatio)}/>
+              <h4 className={styles.name}>Danielle</h4>
+            </div>
+          </div>
+          <div className={styles.person}>
+            <div>
               <Image className={styles.personImage} src={window.cl.url('Rebecca', aspectRatio)}/>
               <h4 className={styles.name}>Rebecca</h4>
             </div>
@@ -33,14 +45,8 @@ export default class WeddingParty extends React.Component {
           </div>
           <div className={styles.person}>
             <div>
-              <Image className={styles.personImage} src={window.cl.url('Kristie', aspectRatio)}/>
-              <h4 className={styles.name}>Kristie</h4>
-            </div>
-          </div>
-          <div className={styles.person}>
-            <div>
-              <Image className={styles.personImage} src={window.cl.url('Danielle', aspectRatio)}/>
-              <h4 className={styles.name}>Danielle</h4>
+              <Image className={styles.personImage} src={window.cl.url('Joy_Sue', aspectRatio)}/>
+              <h4 className={styles.name}>Junior Bridesmaids - Joy & Sue</h4>
             </div>
           </div>
           <div className={styles.person}>

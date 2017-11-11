@@ -24,6 +24,7 @@
 
 .person {
   margin-top: 2rem;
+  display: flex;
   @include col(3);
   > div {
     display: flex;
