@@ -29,8 +29,8 @@ export default class MenuDrawer extends React.Component {
   static defaultProps = {
     links: [
       {text: 'Our Story'},
-      {text: 'Wedding Party'},
       {text: 'Photos'},
+      {text: 'Wedding Party'},
       {text: 'Information'},
       {text: 'Registry'}
     ]
