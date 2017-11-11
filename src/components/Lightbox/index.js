@@ -7,7 +7,9 @@ import styles from './styles.scss'
 
 type Props = {
   children: Object,
-  onClose: Function
+  height: Number,
+  onClose: Function,
+  width: Number
 }
 
 export default class Lightbox extends React.Component {
@@ -28,7 +30,7 @@ export default class Lightbox extends React.Component {
   }
 
   render () {
-    const { image, size, onClose, next, prev } = this.props
+    const { image, height, onClose, next, prev, width } = this.props
     return (
       <Portal className={styles.portalWrapper} portalId='lightbox'>
         <div className={styles.Lightbox}>
@@ -43,7 +45,7 @@ export default class Lightbox extends React.Component {
           </header>
           <article className={styles.LightboxContent}>
             <Image
-              src={window.cl.url(image, { width: size, crop: 'fill'})}
+              src={window.cl.url(image, { width: width, height: height, crop: 'fit'})}
               callback={this.imageLoaded} />
           </article>
           <footer>

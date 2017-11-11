@@ -18,24 +18,39 @@
     @include col(12);
   }
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .person {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  border-radius: 2px;
-  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
-  box-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.7);
-  &:hover {
-    transform: scale(1.1);
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.3);
-    cursor: pointer;
+  margin-top: 2rem;
+  @include col(3);
+  > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+    box-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.7);
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+    }
   }
 }
 
+.personImage {
+  height: auto;
+  width: 100%;
+}
+
 .name {
+  display: flex;
+  flex: 1 1 auto;
   text-align: center;
+  font-family: $primary-font;
+  padding: 0 1rem;
+  justify-content: center;
+  align-items: center;
 }

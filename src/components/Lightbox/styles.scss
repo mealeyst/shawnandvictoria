@@ -15,6 +15,7 @@
 .Lightbox {
   display: flex;
   flex-direction: column;
+  height: 100%;
   footer, header {
     display: flex;
     flex: 1 1 auto;
@@ -54,13 +55,10 @@
 .LightboxContent {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   flex: 2 2 auto;
-  height: 80%;
   > * {
-    height: 100%;
-    width: auto;
-    border-radius: 2px;
+    align-self: center;
   }
 }
 

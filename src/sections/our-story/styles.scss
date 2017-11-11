@@ -2,13 +2,15 @@
 
 .OurStory {
   @include card();
-  flex-direction: column;
   flex-wrap: wrap;
 }
 
 .header {
   height: 3rem;
-  width: 100%;
+  @include col(4);
+  @include breakpoint(tablet) {
+    @include col(12)
+  }
   display: flex;
   justify-content: center;
   padding: 2rem 0;
@@ -34,28 +36,15 @@
 }
 
 .storyWrapper {
-  overflow: hidden;
   @include row();
-  height: 35rem;
-  position: relative;
 }
 
 .text {
+  margin-top: 4rem;
   @include col(4);
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 35rem;
-  overflow-y: scroll;
   transition: transform 1s ease-in-out;
   @include breakpoint(tablet) {
     @include col(10, 1);
-  }
-  &:first-of-type {
-    transform: translateX(-300%);
-  }
-  &:last-of-type {
-    transform: translateX(300%);
   }
 }
 

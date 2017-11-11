@@ -12,13 +12,22 @@ export default class Photos extends React.Component {
     this.state = {
       photoList: [],
       lightbox: false,
-      size: Math.ceil(window.innerWidth * .5)
+      height: this.setHeight(),
+      width: this.setWidth()
     }
 
     this.setLightbox = this.setLightbox.bind(this)
     this.closeLightBox = this.closeLightBox.bind(this)
     this.nextImage = this.nextImage.bind(this)
     this.prevImage = this.prevImage.bind(this)
+  }
+
+  setWidth () {
+    return Math.ceil(window.innerWidth * .5)
+  }
+
+  setHeight () {
+    return Math.ceil(window.innerHeight * .7)
   }
 
   componentWillMount () {
@@ -67,8 +76,7 @@ export default class Photos extends React.Component {
   }
 
   render () {
-    const { photoList, lightbox, size } = this.state
-    console.log('render', lightbox)
+    const { photoList, lightbox, height, width } = this.state
     return (
       <article className={styles.Photos}>
         <div className={styles.thumbnailWrapper}>
@@ -77,7 +85,7 @@ export default class Photos extends React.Component {
             return (<Thumbnail key={index} index={index} src={photo} onClick={this.setLightbox}/>)
           })}
         </div>
-        {lightbox && <Lightbox onClose={this.closeLightBox} image={lightbox} size={size} next={this.nextImage} prev={this.prevImage} />}
+        {lightbox && <Lightbox onClose={this.closeLightBox} image={lightbox} height={height} width={width} next={this.nextImage} prev={this.prevImage} />}
       </article>
     )
   }

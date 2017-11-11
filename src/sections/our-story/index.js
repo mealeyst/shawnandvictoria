@@ -20,11 +20,9 @@ export default class OurStory extends React.Component {
   }
 
   render () {
-    const hisStory = {
-      __html: shawnStory
-    }
-    const herStory = {
-      __html: vickyStory
+    const stories = {
+      his: {__html: shawnStory},
+      hers: {__html: vickyStory}
     }
     const { story } = this.state
     const hisClasses = classNames(styles.text, {[styles.visible]: story})
@@ -41,13 +39,21 @@ export default class OurStory extends React.Component {
               onChange={this.handleOnChange}
               checked={story}
             />
-          <span className={styles.hisStoryInput}>{'Shawn\'s Story'}</span>
+            <span className={styles.hisStoryInput}>{'Shawn\'s Story'}</span>
             <span className={styles.herStoryInput}>{'Victoria\'s Story'}</span>
           </label>
         </header>
         <main className={styles.storyWrapper}>
-          <div className={hisClasses} dangerouslySetInnerHTML={hisStory}/>
-          <div className={herClasses} dangerouslySetInnerHTML={herStory}/>
+          {story &&
+            <article
+              className={hisClasses}
+              dangerouslySetInnerHTML={stories.his} />
+          }
+          {!story &&
+            <article
+              className={herClasses}
+              dangerouslySetInnerHTML={stories.hers} />
+          }
         </main>
       </article>
     )

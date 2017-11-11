@@ -1,0 +1,47 @@
+@import "base";
+
+.Registry {
+  @include card();
+  flex-wrap: wrap;
+}
+
+.title {
+  @include col(4);
+  @include breakpoint(tablet) {
+    @include col(12);
+  }
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  @include col(4);
+  @include breakpoint(tablet) {
+    @include col(12);
+  }
+  hr {
+    display: flex;
+    width: 100%;
+    border-top: 0.1rem solid $silver;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.iconLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  transition: opacity 0.25s ease-in-out;
+  @include col(4);
+  @include breakpoint(tablet) {
+    @include col(6);
+  }
+  &:hover {
+    opacity: 1;
+  }
+  img {
+    width: 100%;
+  }
+}

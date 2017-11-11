@@ -1,52 +1,7 @@
-Viminis nubibus id fraude semel
--------------------------------
+How we met…
+-----------
+Two words: Lupe Fiasco. Odd, I know, but let’s rewind two weeks before we met when I was elected secretary to my College’s activity board after a disastrous Fall concert starring Lupe Fiasco. At my very first executive board meeting the following week, my advisor asked if I was interested in attending the Association for College Union International Conference in Rochester that weekend. I had never been to a real conference before but my advisor was hosting the spelling bee event, and told me I could wear my bee Halloween costume for the event - so obviously I agreed. At the conference, we discovered that each school was separated for dinner. I hesitantly found my table, picked a random chair to throw my stuff onto and was thrown into a ton of ice breaker activities. When it was finally time for dinner, I found that same seat and sat petrified as all of the other people at my table all seemed to already know each other.  Zoning out in my introverted misery, I heard someone sit down next to me, stick out their hand and say; “Hi there, I’m Shawn Mealey.” I turned to my left and saw the biggest most reassuring smile and awkwardly introduced myself. Shawn and I quickly bonded and talked about our schools and our majors. As dinner ended, I told Shawn about the spelling bee, hoping to see him at least one more time before the weekend ended and sure enough, when I arrived for the event in my bee costume, he was already sitting there waiting for me. Lucky for us, Shawn and I had the opportunity to work together several times that weekend and as soon I returned to Oneonta, I found him on Facebook. Over the next year, Shawn and I kept in contact over Facebook and I told all of my friends about my future husband, Shawn Mealey. Finally, I got the nerve to invite Shawn to a Halloween dance almost a year after we met and we officially started our long distance relationship!
 
-Omnes armiferos conicit solitus condidit
-----------------------------------------
-
-Lorem markdownum faciem Meleagros Cythereiadasque percussit arcitenens spectabat
-facias gutture? Quis postquam solent tibi, dum dum qui haberent et mare flava
-agilis! Vano semineces vellera; cum uti pes quidem hunc cogor dextroque lumina
-decrescunt si feroxque.
-
-Parat coeunt Italiae utraque opposita caerula
----------------------------------------------
-
-Sit cum cum advertere dubito quoque Icare mensum inexperrectus lumen Philyreia
-praereptae! Ossa exi dissiluit aptius, tua spectat manere nomine; multifidasque
-nunc. Spatiantibus facio furialiaque torvae aspicis sternis aethere humili
-coniuge, tremuere, et mactata tamen collocat repagula lacertos praenovimus.
-
-Manet petis illi iugalis; me a lumina maris, arte saepe. Quae nolit ignesque
-fateor Lycormas; vulnera Argolis. Laomedonque coepta ad oculosque lapidem animum
-a postquam non, eversae.
-
-Quae ipsum
-----------
-
-Venit duxerat quies. Pectore iubet. Est acu suis profana tenebris, est ergo
-contulerat transitus rapinae decentior harenae! Ad in illa labores puer.
-
-Sub mei
--------
-
-Vestigia haud diu et nutu litore premebat illa. Amnesque sua Themis odere non
-sororis cornu et et stabat Argolicas tamen murmure. Qui impetus Cyanee manant,
-amor nihil nemorisque fortibus Achillis vertere curvique faveas meae Lelegeia
-lacerum?
-
-Eurytus inornatos ex rotave, traxere, pariter relinquit iubasque ligati et
-natura hastam infelix: altae ignemque. Aurea haec comites ferax, fer Dianae
-adsuetus et unde.
-
-Non dona undis
---------------
-
-Ecce nil non, acta leges, quondam iura lumina fertur relictus, at frigida
-vultus, ac. Nec est et sacrum illam; ubi est: Byblida exululat. Faciles septem:
-nocuisse silvis! Sit si fatale nactus.
-
-Superasque pondus, Canentis gurgite regalia, crinibus rupta pia latuerunt nos
-qui duo nudum, urbem Erysicthonis elige furor. Spernuntque victor colorem.
-Digitis summusque ignibus: est tenet micantes. Esse serum, quoque pendentia at
-Circe moras dolore: in, ab villae fallere Iuppiter accedere, ad.
+How he proposed…
+----------------
+Fast forward five and half years into our relationship: Shawn now works in the city and I am teaching in Westchester. We had been talking about marriage for a long while (remember, I told my friends back in 2009 that we were going to get married…). I knew that Shawn had asked my dad to propose to me and that he had a ring but no one quite knew when it was going to happen. On April 10th, Shawn and I had plans to go into the city to go to brunch with our friend, Ben. Since I had never been to brunch, Shawn wanted to get dressed up and make a whole day of it. Since I am a teacher and I run on a teacher schedule, by 3pm I was EXHAUSTED and by the time we got back to Grand Central to catch the train home I was SO CRANKY! Poor Shawn politely asked me to take a picture with him and reluctantly agreed. Next thing I know, Shawn was on his knee and neither of us really remember what was said, but obviously I said “yes.” Needless to say I was a lot less cranky for the ride home.

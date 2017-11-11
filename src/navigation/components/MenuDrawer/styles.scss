@@ -1,9 +1,16 @@
-.drawerOpen {
-  animation: fade-in 0.5s ease-in-out;
+.drawer {
+  border: 1px solid red;
+  transition: border 0.5s ease-in-out;
 }
 
-.drawerClose {
+.drawer-enter {
+  animation: fade-in 0.5s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.drawer-exit {
   animation: fade-out 0.5s ease-in-out;
+  border: 1px solid transparent;
 }
 
 .MenuDrawer {

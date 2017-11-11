@@ -3,6 +3,8 @@
   background-color: $white;
   border-radius: .2rem;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   @include breakpoint(tablet) {
     @include col(10, 1);
     padding: 7rem 0;

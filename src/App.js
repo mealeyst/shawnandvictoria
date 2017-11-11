@@ -7,7 +7,6 @@ import Image from 'components/Image'
 
 export default class App extends React.Component {
   render () {
-    console.log(Sections)
     return (
       <FullWidth>
         <Header />
@@ -23,7 +22,7 @@ export default class App extends React.Component {
           })}
         </Body>
         <Footer>
-          <span>Made with love by: Shawn Mealey</span>
+          <span>Made with love by: Shawn Mealey </span>
         </Footer>
       </FullWidth>
     )
