@@ -18,17 +18,16 @@ type Props = {
 const Drawer = ({ children, ...props }) => (
   <CSSTransition
     {...props}
-    classNames={transitionStyles} timeout={500}
-  >
+    classNames={transitionStyles}
+    timeout={500}>
     {children}
   </CSSTransition>
-);
+)
 
 export default class MenuDrawer extends React.Component {
   props: Props
   static defaultProps = {
     links: [
-      {text: 'Home'},
       {text: 'Our Story'},
       {text: 'Wedding Party'},
       {text: 'Photos'},

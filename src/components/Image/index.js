@@ -24,7 +24,6 @@ export default class ImageComponent extends React.Component {
   }
 
   componentDidMount () {
-    console.log('Are we being hit?')
     this.loadImage(this.props)
   }
 

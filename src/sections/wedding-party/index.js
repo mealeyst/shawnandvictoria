@@ -55,7 +55,7 @@ export default class WeddingParty extends React.Component {
             <div className={styles.person}>
               <div>
                 <Image className={styles.personImage} src={window.cl.url('Rob', aspectRatio)}/>
-                <h4 className={styles.name}>Bestman - Robert</h4>
+                <h4 className={styles.name}>Best Man - Robert</h4>
               </div>
             </div>
             <div className={styles.person}>

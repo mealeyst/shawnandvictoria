@@ -50,6 +50,8 @@
 .questions {
   order: 3;
   margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
   @include col(4)
   @include breakpoint(tablet) {
     @include col(12);

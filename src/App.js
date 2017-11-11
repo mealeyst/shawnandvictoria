@@ -12,7 +12,6 @@ export default class App extends React.Component {
         <Header />
         <Body>
           {Object.keys(Sections).map((name, index) => {
-            console.log(name)
             const CurrentSection = Sections[name]
             return (
               <Section key={index} name={name}>
