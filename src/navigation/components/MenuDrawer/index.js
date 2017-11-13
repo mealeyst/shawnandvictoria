@@ -44,7 +44,7 @@ export default class MenuDrawer extends React.Component {
           <Drawer>
             <aside className={styles.MenuDrawer}>
               {links.map((link, index) => {
-                return (<MenuLink key={index} text={link.text} delay={1 + (index * .25)  } {...props} />)
+                return (<MenuLink key={index} text={link.text} delay={1 + (index * .10)  } {...props} />)
               })}
             </aside>
           </Drawer>

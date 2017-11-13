@@ -10,7 +10,7 @@ export default class Information extends React.Component {
     information: [
       {
         question: 'What time should I arrive?',
-        answer: `<p>We would appreciate guests arriving at 4:15PM at the latest as
+        answer: `<p>We would appreciate guests arriving at 4:00PM at the latest as
          the actual ceremony will start promptly at 4:30PM.</p>`
       },
       {
@@ -19,7 +19,7 @@ export default class Information extends React.Component {
       },
       {
         question: 'What should I wear?',
-        answer: '<p>Formal / Black Tie dress is optional.</p>'
+        answer: '<p>Formal / Black Tie optional.</p>'
       },
       {
         question: 'Can I bring a date?',
