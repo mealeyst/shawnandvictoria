@@ -39,7 +39,7 @@ class Body extends React.Component {
   render () {
     const { children } = this.props
     return (
-      <article id='body'>
+      <article className={styles.Content} id='body'>
         {children}
       </article>
     )

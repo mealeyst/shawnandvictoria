@@ -9,7 +9,7 @@ import styles from 'navigation/components/MenuDrawer/styles.scss'
 const transitionStyles = {
   enter: styles['drawer-enter'],
   exit:  styles['drawer-exit']
-};
+}
 
 type Props = {
   menuOpen: Boolean
@@ -28,6 +28,7 @@ export default class MenuDrawer extends React.Component {
   props: Props
   static defaultProps = {
     links: [
+      {text: 'Home'},
       {text: 'Our Story'},
       {text: 'Photos'},
       {text: 'Wedding Party'},

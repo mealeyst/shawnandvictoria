@@ -1,0 +1,62 @@
+@import "base";
+
+.fullBleed {
+  position: relative;
+  background-color: $white;
+  height: 100vh;
+  width: 100%;
+  img {
+    height: 100vh;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .overlayText {
+    width: 45%;
+  }
+  .overlayText text {
+    fill: $blue;
+    font-family: $header-font;
+  }
+  .textLarge {
+    font-size: 140%;
+  }
+  .textMedium {
+    font-size: 100%;
+  }
+  .textSmall {
+    font-size: 75%;
+  }
+}
+
+.slider {
+  opacity: 0;
+  animation-name: fade;
+  animation-duration: 7s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: .5;
+  }
+  18% {
+    opacity: 1;
+  }
+  88% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
+  }
+}

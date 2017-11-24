@@ -6,6 +6,7 @@ import Information from 'sections/information'
 import Registry from 'sections/registry'
 
 const Sections = {
+  home: Home,
   ['our-story']: OurStory,
   photos: Photos,
   ['wedding-party']: WeddingParty,

@@ -4,6 +4,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  @include row();
-  margin: 4rem 0;
+  &:not(:first-of-type) {
+    margin: 4rem 0;
+  }
 }
