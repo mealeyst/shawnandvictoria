@@ -36,7 +36,7 @@ export default class Information extends React.Component {
       {
         question: 'Is there transportation being provided between reception and hotels?',
         answer: `<p>There is a trolly that runs between the Grandview and the
-        Poughkeepsie Grand Hotel as well as the Holiday Inn in Poughkeepsie.</p>`
+        Poughkeepsie Grand Hotel.</p>`
       },
       {
         question: 'What if I have a dietary restriction?',
