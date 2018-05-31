@@ -104,7 +104,7 @@ export default class Information extends React.Component {
           <p>176 Rinaldi Blvd, Poughkeepsie, NY 12601</p>
           <hr />
           <p><b>Date:</b> July 15th, 2018</p>
-          <p><b>From:</b> 4:30PM - 9:30PM</p>
+          <p><b>From:</b> 4:00PM - 9:30PM</p>
           <p>The ceremony and reception will take place at the venue in the outdoor ballroom</p>
         </aside>
         <aside className={styles.questions}>
