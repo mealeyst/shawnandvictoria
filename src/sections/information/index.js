@@ -10,8 +10,8 @@ export default class Information extends React.Component {
     information: [
       {
         question: 'What time should I arrive?',
-        answer: `<p>We would appreciate guests arriving at 4:00PM at the latest as
-         the actual ceremony will start promptly at 4:30PM.</p>`
+        answer: `<p>We would appreciate guests arriving at 3:30PM at the latest as
+         the actual ceremony will start promptly at 4:00PM.</p>`
       },
       {
         question: 'Where should I park?',
